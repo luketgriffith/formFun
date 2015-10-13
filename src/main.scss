@@ -1,0 +1,49 @@
+div{
+  width: 530px;
+
+}
+
+
+form{
+  border: 1px solid black;
+  width: 530px;
+  padding: 20px;
+  border-bottom: none;
+  border-top: none;
+}
+
+h1{
+  width: 550px;
+  margin: 0;
+  height: 80px;
+  background-color:#3E8ACC;
+  color: white;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+input{
+  width: 100%;
+  margin: 10px 0;
+}
+
+#user-comment{
+  height: 100px;
+}
+
+select{
+  width: 100%;
+}
+
+footer{
+  width: 570px;
+  background-color:#C8DEF1;
+  border: 1px solid black;
+    button{
+     margin: 50px 0 50px 30px;
+     color: white;
+     background-color: #3E8ACC;
+    }
+}
