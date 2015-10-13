@@ -10,7 +10,8 @@ var promise = $.getJSON('http://json-data.herokuapp.com/forms');
         // })
         // console.log(language);
         var template= `<div class='selects'>
-          <select name="select" >
+          <select name="select">
+            <option value="standard" disabled selected>Select your language</option>
             <option value="value1">English</option>
             <option value="value2">Spanish</option>
             <option value="value3">French</option>

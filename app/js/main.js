@@ -9,7 +9,7 @@ promise.then(function (res) {
       //   return y.label;
       // })
       // console.log(language);
-      var template = '<div class=\'selects\'>\n          <select name="select" >\n            <option value="value1">English</option>\n            <option value="value2">Spanish</option>\n            <option value="value3">French</option>\n            <option value="value4">Chinese</option>\n            <option value="value5">Japanese</option> \n          </select>\n          <i class=\'fa ' + x.icon + '\'></i>\n        </div>';
+      var template = '<div class=\'selects\'>\n          <select name="select">\n            <option value="standard" disabled selected>Select your language</option>\n            <option value="value1">English</option>\n            <option value="value2">Spanish</option>\n            <option value="value3">French</option>\n            <option value="value4">Chinese</option>\n            <option value="value5">Japanese</option> \n          </select>\n          <i class=\'fa ' + x.icon + '\'></i>\n        </div>';
       $('form').append(template);
     } else if (x.type === 'text') {
       var template = '<div class=\'text\'>\n          <input name="text" type=\'' + x.type + '\' placeholder=\'' + x.label + '\' id=\'' + x.id + '\' >\n          <i class=\'fa ' + x.icon + '\'></i>\n        </div>';
